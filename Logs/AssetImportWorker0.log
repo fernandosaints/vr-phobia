@@ -15,7 +15,7 @@ C:/Users/Fernando/Documents/PUC/PROJETO FINAL I/Unity/vr-phobia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65318
+52377
 Successfully changed project path to: C:/Users/Fernando/Documents/PUC/PROJETO FINAL I/Unity/vr-phobia
 C:/Users/Fernando/Documents/PUC/PROJETO FINAL I/Unity/vr-phobia
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/Fernando/Documents/PUC/PROJETO FINAL I/Unity/vr-phobia
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 90.67 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 1.05 ms.
+Refreshing native plugins compatible for Editor in 87.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Fernando/Documents/PUC/PROJETO FINAL I/Unity/vr-phobia/Assets
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006994 seconds.
+Registered in 0.006288 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.98 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 76.75 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.539 seconds
+- Completed reload, in  0.541 seconds
 Domain Reload Profiling:
-	ReloadAssembly (539ms)
+	ReloadAssembly (541ms)
 		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (401ms)
+		EndReloadAssembly (403ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (77ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008379 seconds.
+Registered in 0.008242 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Fernando\Documents\PUC\PROJETO FINAL I\Unity\vr-phobia\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Fernando\Documents\PUC\PROJETO FINAL I\Unity\vr-phobia\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.72 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 85.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Fernando\Documents\PUC\PROJETO FINAL I\Unity\vr-phobia\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
@@ -125,29 +125,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  1.010 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1065ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (473ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (464ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -155,13 +155,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 3936 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (58.2 KB). Loaded Objects now: 4402.
-Memory consumption went from 153.2 MB to 153.1 MB.
-Total: 3.250200 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.694000 ms  DeleteObjects: 0.104200 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (57.2 KB). Loaded Objects now: 4407.
+Memory consumption went from 151.7 MB to 151.6 MB.
+Total: 3.261300 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.735000 ms  DeleteObjects: 0.081700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,73 +175,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 866286.789128 seconds.
-  path: Assets/Scenes/Thalassophobia.unity
-  artifactKey: Guid(10bf10c89a1782d40b16213fb6c0acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Thalassophobia.unity using Guid(10bf10c89a1782d40b16213fb6c0acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36870c5a2822b35eac7cdf63c285e9b9') in 0.014947 seconds 
+  Time since last request: 67439.688473 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(ef8c6102841e5344b9bb215056e7cb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(ef8c6102841e5344b9bb215056e7cb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43e25f304f6e98a7647114d8fe67e43') in 0.084979 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 200.159225 seconds.
-  path: Assets/Scenes/Acrophobia.unity
-  artifactKey: Guid(2b90cd1344e89c4439c15d76785d662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Acrophobia.unity using Guid(2b90cd1344e89c4439c15d76785d662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981fc797a4ca042610041d4ce69c6a14') in 0.001963 seconds 
+  Time since last request: 97.044530 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcc760b52e784efd618a03c508b9311') in 0.026209 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 276.375181 seconds.
-  path: Assets/Scenes/Thalassophobia.unity
-  artifactKey: Guid(10bf10c89a1782d40b16213fb6c0acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Thalassophobia.unity using Guid(10bf10c89a1782d40b16213fb6c0acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6816b6f9d8429a299edcccdee6bd599') in 0.001610 seconds 
+  Time since last request: 35.461209 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5769c30d113707bd99b4cb85d0c0fae5') in 0.013902 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.464302 seconds.
-  path: Assets/Scenes/Acrophobia.unity
-  artifactKey: Guid(2b90cd1344e89c4439c15d76785d662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Acrophobia.unity using Guid(2b90cd1344e89c4439c15d76785d662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873a316736a1e21ad224e55a25fe4f21') in 0.001534 seconds 
+  Time since last request: 18.977493 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68de1d364006af797117903ef7ddabea') in 0.016142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.960851 seconds.
-  path: Assets/Scenes/Thalassophobia.unity
-  artifactKey: Guid(10bf10c89a1782d40b16213fb6c0acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Thalassophobia.unity using Guid(10bf10c89a1782d40b16213fb6c0acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f738771604b625df26762790099975b') in 0.001487 seconds 
+  Time since last request: 125.929229 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(eaf3a77bcabb7164dafa04ef84d7e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93a1b0c4dc9ec41f6a38a6d3466d558') in 0.028913 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.968267 seconds.
-  path: Assets/Scenes/Acrophobia.unity
-  artifactKey: Guid(2b90cd1344e89c4439c15d76785d662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Acrophobia.unity using Guid(2b90cd1344e89c4439c15d76785d662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59f583bb2a932bcb1b914f0bb415e45') in 0.001503 seconds 
+  Time since last request: 95.099078 seconds.
+  path: Assets/Layers/WaterLayer.terrainlayer
+  artifactKey: Guid(cea91bca0d3173642bb110cb03f4793e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layers/WaterLayer.terrainlayer using Guid(cea91bca0d3173642bb110cb03f4793e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a155d47737caf2f9b9eb0264ac5099a5') in 0.038500 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.275393 seconds.
-  path: Assets/Scenes/Nictophobia.unity
-  artifactKey: Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nictophobia.unity using Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768903f1c5d7dcb3f5f741f58bf55e94') in 0.001782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.340874 seconds.
-  path: Assets/Scenes/Nictophobia.unity
-  artifactKey: Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nictophobia.unity using Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e41a4c017f0a8f32ee9362103405c1') in 0.001548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.064529 seconds.
-  path: Assets/Scenes/Nictophobia.unity
-  artifactKey: Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nictophobia.unity using Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836c5a6886819c2bb9f629f4a679d4b7') in 0.001451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 120.926699 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(5b487ac19394be44e8e318fa950cf538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(5b487ac19394be44e8e318fa950cf538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5951363bbb20a6d968cc55a470de4bb9') in 0.497378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.218296 seconds.
-  path: Assets/Scenes/TestScene.unity
-  artifactKey: Guid(a2ba44019e2a540deb4507337c25a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(a2ba44019e2a540deb4507337c25a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcac5d721dabb3b0c29a3ff6cd2bc62c') in 0.001837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.063626 seconds.
-  path: Assets/Scenes/Nictophobia.unity
-  artifactKey: Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nictophobia.unity using Guid(1d7c292a9b5b15e48b3f3b7ac9d2979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c59caaf9909e8995351c1af2d25bc8') in 0.001608 seconds 
+  Time since last request: 153.857481 seconds.
+  path: Assets/Scenes/ThalassophobiaTEST.unity
+  artifactKey: Guid(7edf8482370bf0d4ab069fde4161d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThalassophobiaTEST.unity using Guid(7edf8482370bf0d4ab069fde4161d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1729c3590cd7b123abc5c96bba56c4b') in 0.002044 seconds 
