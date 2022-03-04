@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: a2ba44019e2a540deb4507337c25a844
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2341e8f49ad3bed4d9e8d0cd2ff50a65
+  - enabled: 1
+    path: Assets/Scenes/Acrophobia.unity
+    guid: 2b90cd1344e89c4439c15d76785d662c
+  - enabled: 1
+    path: Assets/Scenes/Nictophobia.unity
+    guid: 1d7c292a9b5b15e48b3f3b7ac9d2979e
+  - enabled: 1
+    path: Assets/Scenes/Thalassophobia.unity
+    guid: 10bf10c89a1782d40b16213fb6c0acbc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eb84867302ed045349bae371346a3123, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e592d543fd42b4c97a11ac8d978280ca, type: 2}
