@@ -66,7 +66,7 @@ public class Shark : MonoBehaviour
 
         Hunting();
         Move();
-        CameraRig();
+        //CameraRig();
         DebugPath();
 
         //--------------
