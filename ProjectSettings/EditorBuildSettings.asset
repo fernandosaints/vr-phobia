@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Acrophobia.unity
     guid: 2b90cd1344e89c4439c15d76785d662c
   - enabled: 1
-    path: Assets/Scenes/Nictophobia.unity
+    path: Assets/Scenes/NictophobiaTEST.unity
     guid: 1d7c292a9b5b15e48b3f3b7ac9d2979e
   - enabled: 1
-    path: Assets/Scenes/Thalassophobia.unity
+    path: Assets/Scenes/ThalassophobiaTEST.unity
     guid: 10bf10c89a1782d40b16213fb6c0acbc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eb84867302ed045349bae371346a3123, type: 2}

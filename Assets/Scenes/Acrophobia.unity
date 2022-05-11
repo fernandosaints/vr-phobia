@@ -600,6 +600,7 @@ GameObject:
   - component: {fileID: 848148789}
   - component: {fileID: 848148788}
   - component: {fileID: 848148790}
+  - component: {fileID: 848148791}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -658,6 +659,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &848148791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848148787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd56b4dfcf454140b3a43e051046a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &876313539
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,7 +779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1070581591}
   m_Layer: 0
-  m_Name: Audio
+  m_Name: Audios
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
