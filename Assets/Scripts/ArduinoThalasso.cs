@@ -24,7 +24,7 @@ public class ArduinoThalasso : MonoBehaviour
             if (linha != "No finger?")
             {
                 beatAvg = int.Parse(linha);
-                if (beatAvg > 70)
+                if (beatAvg > 100)
                 {
                     megalodon.SetActive(true);
                 }

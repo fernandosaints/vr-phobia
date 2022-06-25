@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Swimmer">
+    <Position X="7.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAgAAAAAIAAAAAAAAgAAQAAQAAAAEACAIAUA=</HashCode>
+      <FileName>Assets\Scripts\Swimmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArduinoAcro">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ArduinoAcro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArduinoNicto">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAQAAAAAAAABAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ArduinoNicto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArduinoThalasso">
+    <Position X="5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAACAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ArduinoThalasso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneLoader">
+    <Position X="2.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XRHandController">
+    <Position X="10.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAEAACAAAQAAIAAABAQIAAgAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\XRHandController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HandType">
+    <Position X="10.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\XRHandController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

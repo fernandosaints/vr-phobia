@@ -26,7 +26,7 @@ public class ArduinoNicto : MonoBehaviour
             if (linha != "No finger?")
             {
                 beatAvg = int.Parse(linha);
-                if (beatAvg > 70 && !played)
+                if (beatAvg > 100 && !played)
                 {
                     dogHowl.GetComponent<AudioSource>().Play();
                     played = true;

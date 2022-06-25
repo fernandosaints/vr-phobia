@@ -6,6 +6,7 @@ public class ArduinoAcro : MonoBehaviour
 {
     SerialPort sp = new SerialPort("COM3", 115200);
     //SerialPort sp = new SerialPort("COM5", 115200);
+    public GameObject plank;
 
     void Start()
     {
@@ -22,13 +23,9 @@ public class ArduinoAcro : MonoBehaviour
             if (linha != "No finger?")
             {
                 beatAvg = int.Parse(linha);
-                if (beatAvg > 70)
+                if (beatAvg > 100)
                 {
-                    GameObject.Find("Cube").GetComponent<Renderer>().material.color = Color.green;
-                }
-                else
-                {
-                    GameObject.Find("Cube").GetComponent<Renderer>().material.color = Color.red;
+                    plank.SetActive(false);
                 }
             }
             print(linha);
