@@ -2,11 +2,22 @@
 
 Este projeto tem como objetivo criar uma experiência de realidade virtual imersiva e responsiva, adaptando dinamicamente o ambiente com base nos batimentos cardíacos do usuário. Através de um sensor de batimentos cardíacos conectado a uma placa Arduino, o ambiente virtual se ajusta conforme o aumento da frequência cardíaca, oferecendo uma experiência interativa para pessoas com fobias específicas, como acrofobia, nictofobia, talassofobia e claustrofobia.
 
-### Guia de instruções
+## Requisitos
+
+### Software:
+* Unity 2021.2.7f1 ou superior
+* Arduino IDE
+
+### Hardware:
+* Dispositivo de realidade virtual (Meta Quest, HTC Vive, ou outro compatível)
+* Sensor de batimentos cardíacos (MAX30102, ou outro compatível)
+* Placa Arduino (Uno, Nano, ou outro modelo compatível)
+
+## Guia de instruções
 
 **Para clonar e executar o projeto:**
 
-* Passo 1: Instale o Unity Hub (se ainda não estiver instalado) e a versão do Unity usada no projeto (verifique o arquivo README do repositório para saber a versão correta).
+* Passo 1: Instale o Unity Hub (se ainda não estiver instalado) e a versão do Unity usada no projeto.
 * Passo 2: Acesse o repositório do projeto no GitHub.
 * Passo 3: Copie o link de clonagem HTTPS ou SSH do repositório.
 * Passo 4: Abra o Git Bash (ou um terminal de sua preferência) e navegue até a pasta onde deseja clonar o projeto.
